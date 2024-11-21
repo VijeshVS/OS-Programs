@@ -78,5 +78,5 @@ int main(){
   }
 
   for(int i = 0;i<N;i++) pthread_join(thread_id[i],NULL);
-
+  
 }
